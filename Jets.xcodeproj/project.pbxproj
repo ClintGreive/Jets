@@ -13,6 +13,18 @@
 		2627523B19D770BC00E9B95B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2627523A19D770BC00E9B95B /* Images.xcassets */; };
 		2627523E19D770BC00E9B95B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2627523C19D770BC00E9B95B /* LaunchScreen.xib */; };
 		2627524A19D770BC00E9B95B /* JetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627524919D770BC00E9B95B /* JetsTests.swift */; };
+		2627525419D77A5D00E9B95B /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525319D77A5D00E9B95B /* sky.jpg */; };
+		2627525F19D77AC300E9B95B /* f18delta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525519D77AC300E9B95B /* f18delta.jpg */; };
+		2627526019D77AC300E9B95B /* f16beta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525619D77AC300E9B95B /* f16beta.jpg */; };
+		2627526119D77AC300E9B95B /* f15beta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525719D77AC300E9B95B /* f15beta.jpg */; };
+		2627526219D77AC300E9B95B /* f16alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525819D77AC300E9B95B /* f16alpha.jpg */; };
+		2627526319D77AC300E9B95B /* f15alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525919D77AC300E9B95B /* f15alpha.jpg */; };
+		2627526419D77AC300E9B95B /* raptor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525A19D77AC300E9B95B /* raptor.jpg */; };
+		2627526519D77AC300E9B95B /* f18beta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525B19D77AC300E9B95B /* f18beta.jpg */; };
+		2627526619D77AC300E9B95B /* f18alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525C19D77AC300E9B95B /* f18alpha.jpg */; };
+		2627526719D77AC300E9B95B /* typhoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525D19D77AC300E9B95B /* typhoon.jpg */; };
+		2627526819D77AC300E9B95B /* jumpjet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525E19D77AC300E9B95B /* jumpjet.jpg */; };
+		2627526B19D77D5700E9B95B /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627526A19D77D5700E9B95B /* Jet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 		2627524319D770BC00E9B95B /* JetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2627524819D770BC00E9B95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2627524919D770BC00E9B95B /* JetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetsTests.swift; sourceTree = "<group>"; };
+		2627525319D77A5D00E9B95B /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		2627525519D77AC300E9B95B /* f18delta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f18delta.jpg; sourceTree = "<group>"; };
+		2627525619D77AC300E9B95B /* f16beta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f16beta.jpg; sourceTree = "<group>"; };
+		2627525719D77AC300E9B95B /* f15beta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f15beta.jpg; sourceTree = "<group>"; };
+		2627525819D77AC300E9B95B /* f16alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f16alpha.jpg; sourceTree = "<group>"; };
+		2627525919D77AC300E9B95B /* f15alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f15alpha.jpg; sourceTree = "<group>"; };
+		2627525A19D77AC300E9B95B /* raptor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raptor.jpg; sourceTree = "<group>"; };
+		2627525B19D77AC300E9B95B /* f18beta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f18beta.jpg; sourceTree = "<group>"; };
+		2627525C19D77AC300E9B95B /* f18alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f18alpha.jpg; sourceTree = "<group>"; };
+		2627525D19D77AC300E9B95B /* typhoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = typhoon.jpg; sourceTree = "<group>"; };
+		2627525E19D77AC300E9B95B /* jumpjet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jumpjet.jpg; sourceTree = "<group>"; };
+		2627526A19D77D5700E9B95B /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +106,7 @@
 				2627523719D770BC00E9B95B /* Main.storyboard */,
 				2627523A19D770BC00E9B95B /* Images.xcassets */,
 				2627523C19D770BC00E9B95B /* LaunchScreen.xib */,
+				2627526919D77D3800E9B95B /* Model */,
 				2627523119D770BC00E9B95B /* Supporting Files */,
 			);
 			path = Jets;
@@ -90,6 +115,17 @@
 		2627523119D770BC00E9B95B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2627525519D77AC300E9B95B /* f18delta.jpg */,
+				2627525619D77AC300E9B95B /* f16beta.jpg */,
+				2627525719D77AC300E9B95B /* f15beta.jpg */,
+				2627525819D77AC300E9B95B /* f16alpha.jpg */,
+				2627525919D77AC300E9B95B /* f15alpha.jpg */,
+				2627525A19D77AC300E9B95B /* raptor.jpg */,
+				2627525B19D77AC300E9B95B /* f18beta.jpg */,
+				2627525C19D77AC300E9B95B /* f18alpha.jpg */,
+				2627525D19D77AC300E9B95B /* typhoon.jpg */,
+				2627525E19D77AC300E9B95B /* jumpjet.jpg */,
+				2627525319D77A5D00E9B95B /* sky.jpg */,
 				2627523219D770BC00E9B95B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +146,14 @@
 				2627524819D770BC00E9B95B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2627526919D77D3800E9B95B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2627526A19D77D5700E9B95B /* Jet.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +236,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2627525F19D77AC300E9B95B /* f18delta.jpg in Resources */,
 				2627523919D770BC00E9B95B /* Main.storyboard in Resources */,
+				2627525419D77A5D00E9B95B /* sky.jpg in Resources */,
+				2627526819D77AC300E9B95B /* jumpjet.jpg in Resources */,
+				2627526119D77AC300E9B95B /* f15beta.jpg in Resources */,
+				2627526619D77AC300E9B95B /* f18alpha.jpg in Resources */,
+				2627526519D77AC300E9B95B /* f18beta.jpg in Resources */,
 				2627523E19D770BC00E9B95B /* LaunchScreen.xib in Resources */,
+				2627526319D77AC300E9B95B /* f15alpha.jpg in Resources */,
 				2627523B19D770BC00E9B95B /* Images.xcassets in Resources */,
+				2627526219D77AC300E9B95B /* f16alpha.jpg in Resources */,
+				2627526019D77AC300E9B95B /* f16beta.jpg in Resources */,
+				2627526719D77AC300E9B95B /* typhoon.jpg in Resources */,
+				2627526419D77AC300E9B95B /* raptor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2627523619D770BC00E9B95B /* ViewController.swift in Sources */,
+				2627526B19D77D5700E9B95B /* Jet.swift in Sources */,
 				2627523419D770BC00E9B95B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

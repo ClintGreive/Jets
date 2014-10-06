@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var randomFactLabel: UILabel!
     
     var jetsArray:[Jet] = [] // Array
     
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
         firstJet.type = "Fighter / Attack"
         firstJet.image = UIImage(named: "f18alpha.jpg")
         
-//      jetsArray.append(firstJet)
+//      self.jetsArray.append(firstJet)
         
 //      println("This Jet is named \(firstJet.name) and it is \(firstJet.age) year of age, being a \(firstJet.type). \(firstJet.image)")
         
@@ -52,14 +53,15 @@ class ViewController: UIViewController {
         forthJet.image = UIImage(named: "typhoon.jpg")
         
         // need this in viewDidLoad so the image appears before the next bar button is pushed
-        aircraftImage.image = firstJet.image
-        nameLabel.text = firstJet.name
-        ageLabel.text = "\(firstJet.age)"
-        typeLabel.text = firstJet.type
+        self.aircraftImage.image = firstJet.image
+        self.nameLabel.text = firstJet.name
+        self.ageLabel.text = "\(firstJet.age)"
+        self.typeLabel.text = firstJet.type
+        self.randomFactLabel.text = firstJet.randomFact()
         
-        jetsArray += [firstJet, secondJet, thirdJet, forthJet] // appending multiple objects to Array
+        self.jetsArray += [firstJet, secondJet, thirdJet, forthJet] // appending multiple objects to Array
         
-        currentIndex = 0
+        self.currentIndex = 0
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,13 +76,13 @@ class ViewController: UIViewController {
         var randomIndex = Int(arc4random_uniform(UInt32(jetsArray.count)))
         
         // if currentIndex equals randomInex, keep generating a randomIndex so it's not the same image
-        while currentIndex == randomIndex {
+        while self.currentIndex == randomIndex {
             randomIndex = Int(arc4random_uniform(UInt32(jetsArray.count)))
         }
         
         let randomJets = jetsArray[randomIndex]
         
-        currentIndex = randomIndex
+        self.currentIndex = randomIndex
         
         UIView.transitionWithView(self.view, duration: 0.2, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {
           
@@ -88,6 +90,7 @@ class ViewController: UIViewController {
             self.nameLabel.text = randomJets.name
             self.ageLabel.text = "\(randomJets.age)"
             self.typeLabel.text = randomJets.type
+            self.randomFactLabel.text = randomJets.randomFact()
 
             }, completion: { (finished: Bool) -> () in
             })

@@ -50,7 +50,7 @@
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.064708451396388686" green="0.12146074815732442" blue="0.84725288722826086" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="103" y="208" width="177" height="21"/>
@@ -60,7 +60,7 @@
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.064708451396388686" green="0.12146074815732442" blue="0.84725288722826086" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="103" y="247" width="177" height="21"/>
@@ -93,10 +93,29 @@
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.064708451396388686" green="0.12146074815732442" blue="0.84725288722826086" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="103" y="289" width="177" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Fact:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzk-6g-5vn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="332" width="117" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Fact" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxA-yq-efE">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="361" width="240" height="145"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -112,6 +131,8 @@
                                 <exclude reference="ajg-lr-eYP"/>
                                 <exclude reference="REm-cc-Amh"/>
                                 <exclude reference="BM0-bk-eLx"/>
+                                <exclude reference="vzk-6g-5vn"/>
+                                <exclude reference="RxA-yq-efE"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -125,6 +146,8 @@
                                 <include reference="ajg-lr-eYP"/>
                                 <include reference="REm-cc-Amh"/>
                                 <include reference="BM0-bk-eLx"/>
+                                <include reference="vzk-6g-5vn"/>
+                                <include reference="RxA-yq-efE"/>
                             </mask>
                         </variation>
                     </view>
@@ -134,6 +157,7 @@
                         <outlet property="ageLabel" destination="Q1t-cL-b61" id="fvt-gj-gl5"/>
                         <outlet property="aircraftImage" destination="U0j-PH-Zfs" id="Dra-XR-bb9"/>
                         <outlet property="nameLabel" destination="efZ-jo-bSk" id="mEc-e1-CkV"/>
+                        <outlet property="randomFactLabel" destination="RxA-yq-efE" id="GXp-ut-nc0"/>
                         <outlet property="typeLabel" destination="BM0-bk-eLx" id="WhK-Zh-IUa"/>
                     </connections>
                 </viewController>

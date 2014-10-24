@@ -25,6 +25,14 @@
 		2627526719D77AC300E9B95B /* typhoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525D19D77AC300E9B95B /* typhoon.jpg */; };
 		2627526819D77AC300E9B95B /* jumpjet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525E19D77AC300E9B95B /* jumpjet.jpg */; };
 		2627526B19D77D5700E9B95B /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627526A19D77D5700E9B95B /* Jet.swift */; };
+		267AE55619F7A5680009D077 /* Chopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267AE55519F7A5680009D077 /* Chopper.swift */; };
+		267AE55B19F7C4700009D077 /* huey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267AE55719F7C4700009D077 /* huey.jpg */; };
+		267AE55C19F7C4700009D077 /* apache.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267AE55819F7C4700009D077 /* apache.jpg */; };
+		267AE55D19F7C4700009D077 /* blackhawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267AE55919F7C4700009D077 /* blackhawk.jpg */; };
+		267AE55E19F7C4700009D077 /* chinook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 267AE55A19F7C4700009D077 /* chinook.jpg */; };
+		269D596919FA268A00ED972E /* ChopperSubWeapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269D596819FA268A00ED972E /* ChopperSubWeapons.swift */; };
+		269D596C19FA2F8400ED972E /* hydra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 269D596A19FA2F8400ED972E /* hydra.jpg */; };
+		269D596D19FA2F8400ED972E /* hellfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 269D596B19FA2F8400ED972E /* hellfire.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2627522E19D770BC00E9B95B /* Jets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2627522E19D770BC00E9B95B /* JetsAndChoppers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetsAndChoppers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2627523219D770BC00E9B95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2627523319D770BC00E9B95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2627523519D770BC00E9B95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2627523819D770BC00E9B95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2627523A19D770BC00E9B95B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2627523D19D770BC00E9B95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2627524319D770BC00E9B95B /* JetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2627524319D770BC00E9B95B /* JetsAndChoppersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetsAndChoppersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2627524819D770BC00E9B95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2627524919D770BC00E9B95B /* JetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetsTests.swift; sourceTree = "<group>"; };
 		2627525319D77A5D00E9B95B /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
@@ -60,6 +68,14 @@
 		2627525D19D77AC300E9B95B /* typhoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = typhoon.jpg; sourceTree = "<group>"; };
 		2627525E19D77AC300E9B95B /* jumpjet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jumpjet.jpg; sourceTree = "<group>"; };
 		2627526A19D77D5700E9B95B /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
+		267AE55519F7A5680009D077 /* Chopper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chopper.swift; sourceTree = "<group>"; };
+		267AE55719F7C4700009D077 /* huey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = huey.jpg; path = ../../../../Downloads/huey.jpg; sourceTree = "<group>"; };
+		267AE55819F7C4700009D077 /* apache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apache.jpg; path = ../../../../Downloads/apache.jpg; sourceTree = "<group>"; };
+		267AE55919F7C4700009D077 /* blackhawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blackhawk.jpg; path = ../../../../Downloads/blackhawk.jpg; sourceTree = "<group>"; };
+		267AE55A19F7C4700009D077 /* chinook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chinook.jpg; path = ../../../../Downloads/chinook.jpg; sourceTree = "<group>"; };
+		269D596819FA268A00ED972E /* ChopperSubWeapons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChopperSubWeapons.swift; sourceTree = "<group>"; };
+		269D596A19FA2F8400ED972E /* hydra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hydra.jpg; path = ../../../../Downloads/hydra.jpg; sourceTree = "<group>"; };
+		269D596B19FA2F8400ED972E /* hellfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hellfire.jpg; path = ../../../../Downloads/hellfire.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +108,8 @@
 		2627522F19D770BC00E9B95B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2627522E19D770BC00E9B95B /* Jets.app */,
-				2627524319D770BC00E9B95B /* JetsTests.xctest */,
+				2627522E19D770BC00E9B95B /* JetsAndChoppers.app */,
+				2627524319D770BC00E9B95B /* JetsAndChoppersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +131,12 @@
 		2627523119D770BC00E9B95B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				269D596A19FA2F8400ED972E /* hydra.jpg */,
+				269D596B19FA2F8400ED972E /* hellfire.jpg */,
+				267AE55719F7C4700009D077 /* huey.jpg */,
+				267AE55819F7C4700009D077 /* apache.jpg */,
+				267AE55919F7C4700009D077 /* blackhawk.jpg */,
+				267AE55A19F7C4700009D077 /* chinook.jpg */,
 				2627525519D77AC300E9B95B /* f18delta.jpg */,
 				2627525619D77AC300E9B95B /* f16beta.jpg */,
 				2627525719D77AC300E9B95B /* f15beta.jpg */,
@@ -152,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				2627526A19D77D5700E9B95B /* Jet.swift */,
+				267AE55519F7A5680009D077 /* Chopper.swift */,
+				269D596819FA268A00ED972E /* ChopperSubWeapons.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -159,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2627522D19D770BC00E9B95B /* Jets */ = {
+		2627522D19D770BC00E9B95B /* JetsAndChoppers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2627524D19D770BC00E9B95B /* Build configuration list for PBXNativeTarget "Jets" */;
+			buildConfigurationList = 2627524D19D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsAndChoppers" */;
 			buildPhases = (
 				2627522A19D770BC00E9B95B /* Sources */,
 				2627522B19D770BC00E9B95B /* Frameworks */,
@@ -171,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = Jets;
+			name = JetsAndChoppers;
 			productName = Jets;
-			productReference = 2627522E19D770BC00E9B95B /* Jets.app */;
+			productReference = 2627522E19D770BC00E9B95B /* JetsAndChoppers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2627524219D770BC00E9B95B /* JetsTests */ = {
+		2627524219D770BC00E9B95B /* JetsAndChoppersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2627525019D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsTests" */;
+			buildConfigurationList = 2627525019D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsAndChoppersTests" */;
 			buildPhases = (
 				2627523F19D770BC00E9B95B /* Sources */,
 				2627524019D770BC00E9B95B /* Frameworks */,
@@ -189,9 +213,9 @@
 			dependencies = (
 				2627524519D770BC00E9B95B /* PBXTargetDependency */,
 			);
-			name = JetsTests;
+			name = JetsAndChoppersTests;
 			productName = JetsTests;
-			productReference = 2627524319D770BC00E9B95B /* JetsTests.xctest */;
+			productReference = 2627524319D770BC00E9B95B /* JetsAndChoppersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2627522919D770BC00E9B95B /* Build configuration list for PBXProject "Jets" */;
+			buildConfigurationList = 2627522919D770BC00E9B95B /* Build configuration list for PBXProject "JetsAndChoppers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,8 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2627522D19D770BC00E9B95B /* Jets */,
-				2627524219D770BC00E9B95B /* JetsTests */,
+				2627522D19D770BC00E9B95B /* JetsAndChoppers */,
+				2627524219D770BC00E9B95B /* JetsAndChoppersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,17 +261,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2627525F19D77AC300E9B95B /* f18delta.jpg in Resources */,
+				267AE55B19F7C4700009D077 /* huey.jpg in Resources */,
 				2627523919D770BC00E9B95B /* Main.storyboard in Resources */,
 				2627525419D77A5D00E9B95B /* sky.jpg in Resources */,
 				2627526819D77AC300E9B95B /* jumpjet.jpg in Resources */,
+				267AE55E19F7C4700009D077 /* chinook.jpg in Resources */,
+				269D596D19FA2F8400ED972E /* hellfire.jpg in Resources */,
 				2627526119D77AC300E9B95B /* f15beta.jpg in Resources */,
 				2627526619D77AC300E9B95B /* f18alpha.jpg in Resources */,
+				267AE55D19F7C4700009D077 /* blackhawk.jpg in Resources */,
 				2627526519D77AC300E9B95B /* f18beta.jpg in Resources */,
 				2627523E19D770BC00E9B95B /* LaunchScreen.xib in Resources */,
 				2627526319D77AC300E9B95B /* f15alpha.jpg in Resources */,
 				2627523B19D770BC00E9B95B /* Images.xcassets in Resources */,
+				267AE55C19F7C4700009D077 /* apache.jpg in Resources */,
 				2627526219D77AC300E9B95B /* f16alpha.jpg in Resources */,
 				2627526019D77AC300E9B95B /* f16beta.jpg in Resources */,
+				269D596C19FA2F8400ED972E /* hydra.jpg in Resources */,
 				2627526719D77AC300E9B95B /* typhoon.jpg in Resources */,
 				2627526419D77AC300E9B95B /* raptor.jpg in Resources */,
 			);
@@ -268,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2627523619D770BC00E9B95B /* ViewController.swift in Sources */,
+				267AE55619F7A5680009D077 /* Chopper.swift in Sources */,
 				2627526B19D77D5700E9B95B /* Jet.swift in Sources */,
+				269D596919FA268A00ED972E /* ChopperSubWeapons.swift in Sources */,
 				2627523419D770BC00E9B95B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +318,7 @@
 /* Begin PBXTargetDependency section */
 		2627524519D770BC00E9B95B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2627522D19D770BC00E9B95B /* Jets */;
+			target = 2627522D19D770BC00E9B95B /* JetsAndChoppers */;
 			targetProxy = 2627524419D770BC00E9B95B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,7 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JetsAndChoppers;
 			};
 			name = Debug;
 		};
@@ -404,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JetsAndChoppers;
 			};
 			name = Release;
 		};
@@ -422,7 +454,7 @@
 				);
 				INFOPLIST_FILE = JetsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JetsAndChoppersTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jets.app/Jets";
 			};
 			name = Debug;
@@ -437,7 +469,7 @@
 				);
 				INFOPLIST_FILE = JetsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JetsAndChoppersTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jets.app/Jets";
 			};
 			name = Release;
@@ -445,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2627522919D770BC00E9B95B /* Build configuration list for PBXProject "Jets" */ = {
+		2627522919D770BC00E9B95B /* Build configuration list for PBXProject "JetsAndChoppers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2627524B19D770BC00E9B95B /* Debug */,
@@ -454,21 +486,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2627524D19D770BC00E9B95B /* Build configuration list for PBXNativeTarget "Jets" */ = {
+		2627524D19D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsAndChoppers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2627524E19D770BC00E9B95B /* Debug */,
 				2627524F19D770BC00E9B95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2627525019D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsTests" */ = {
+		2627525019D770BC00E9B95B /* Build configuration list for PBXNativeTarget "JetsAndChoppersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2627525119D770BC00E9B95B /* Debug */,
 				2627525219D770BC00E9B95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

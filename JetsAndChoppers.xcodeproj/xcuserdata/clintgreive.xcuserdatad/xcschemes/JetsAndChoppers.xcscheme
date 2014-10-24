@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2627522D19D770BC00E9B95B"
-               BuildableName = "Jets.app"
-               BlueprintName = "Jets"
-               ReferencedContainer = "container:Jets.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2627524219D770BC00E9B95B"
-               BuildableName = "JetsTests.xctest"
-               BlueprintName = "JetsTests"
-               ReferencedContainer = "container:Jets.xcodeproj">
+               BuildableName = "JetsAndChoppers.app"
+               BlueprintName = "JetsAndChoppers"
+               ReferencedContainer = "container:JetsAndChoppers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2627524219D770BC00E9B95B"
-               BuildableName = "JetsTests.xctest"
-               BlueprintName = "JetsTests"
-               ReferencedContainer = "container:Jets.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2627522D19D770BC00E9B95B"
-            BuildableName = "Jets.app"
-            BlueprintName = "Jets"
-            ReferencedContainer = "container:Jets.xcodeproj">
+            BuildableName = "JetsAndChoppers.app"
+            BlueprintName = "JetsAndChoppers"
+            ReferencedContainer = "container:JetsAndChoppers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2627522D19D770BC00E9B95B"
-            BuildableName = "Jets.app"
-            BlueprintName = "Jets"
-            ReferencedContainer = "container:Jets.xcodeproj">
+            BuildableName = "JetsAndChoppers.app"
+            BlueprintName = "JetsAndChoppers"
+            ReferencedContainer = "container:JetsAndChoppers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2627522D19D770BC00E9B95B"
-            BuildableName = "Jets.app"
-            BlueprintName = "Jets"
-            ReferencedContainer = "container:Jets.xcodeproj">
+            BuildableName = "JetsAndChoppers.app"
+            BlueprintName = "JetsAndChoppers"
+            ReferencedContainer = "container:JetsAndChoppers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

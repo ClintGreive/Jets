@@ -15,7 +15,7 @@ struct Jet {
     var type = ""
     var image = UIImage(named: "")
     
-    func randomFact () -> String {
+    func randomFact() -> String {
         
         var randomNumber = Int(arc4random_uniform(UInt32(4)))
         var facts:String

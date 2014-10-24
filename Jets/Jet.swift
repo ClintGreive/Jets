@@ -1,6 +1,6 @@
 //
 //  Jet.swift
-//  Jets
+//  JetsAndChoppers
 //
 //  Created by Clint Greive on 28/09/2014.
 //  Copyright (c) 2014 Clint Greive. All rights reserved.

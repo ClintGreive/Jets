@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Jets
+//  JetsAndChoppers
 //
 //  Created by Clint Greive on 28/09/2014.
 //  Copyright (c) 2014 Clint Greive. All rights reserved.
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     var currentIndex = 0
     
-    // tuple
+    // tuple: adding string and integer
     var currentAircraft = (aircraftType: "Jet", index: 0)
     
     override func viewDidLoad() {

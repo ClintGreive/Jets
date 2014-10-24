@@ -59,13 +59,13 @@
 		2627525D19D77AC300E9B95B /* typhoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = typhoon.jpg; sourceTree = "<group>"; };
 		2627526A19D77D5700E9B95B /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
 		267AE55519F7A5680009D077 /* Chopper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chopper.swift; sourceTree = "<group>"; };
-		267AE55719F7C4700009D077 /* huey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = huey.jpg; path = ../../../../Downloads/huey.jpg; sourceTree = "<group>"; };
-		267AE55819F7C4700009D077 /* apache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apache.jpg; path = ../../../../Downloads/apache.jpg; sourceTree = "<group>"; };
-		267AE55919F7C4700009D077 /* blackhawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blackhawk.jpg; path = ../../../../Downloads/blackhawk.jpg; sourceTree = "<group>"; };
-		267AE55A19F7C4700009D077 /* chinook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chinook.jpg; path = ../../../../Downloads/chinook.jpg; sourceTree = "<group>"; };
+		267AE55719F7C4700009D077 /* huey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huey.jpg; sourceTree = "<group>"; };
+		267AE55819F7C4700009D077 /* apache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apache.jpg; sourceTree = "<group>"; };
+		267AE55919F7C4700009D077 /* blackhawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackhawk.jpg; sourceTree = "<group>"; };
+		267AE55A19F7C4700009D077 /* chinook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinook.jpg; sourceTree = "<group>"; };
 		269D596819FA268A00ED972E /* ChopperSubWeapons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChopperSubWeapons.swift; sourceTree = "<group>"; };
-		269D596A19FA2F8400ED972E /* hydra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hydra.jpg; path = ../../../../Downloads/hydra.jpg; sourceTree = "<group>"; };
-		269D596B19FA2F8400ED972E /* hellfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hellfire.jpg; path = ../../../../Downloads/hellfire.jpg; sourceTree = "<group>"; };
+		269D596A19FA2F8400ED972E /* hydra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hydra.jpg; sourceTree = "<group>"; };
+		269D596B19FA2F8400ED972E /* hellfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hellfire.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -16,7 +16,6 @@
 		2627525419D77A5D00E9B95B /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525319D77A5D00E9B95B /* sky.jpg */; };
 		2627526219D77AC300E9B95B /* f16alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525819D77AC300E9B95B /* f16alpha.jpg */; };
 		2627526319D77AC300E9B95B /* f15alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525919D77AC300E9B95B /* f15alpha.jpg */; };
-		2627526419D77AC300E9B95B /* raptor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525A19D77AC300E9B95B /* raptor.jpg */; };
 		2627526619D77AC300E9B95B /* f18alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525C19D77AC300E9B95B /* f18alpha.jpg */; };
 		2627526719D77AC300E9B95B /* typhoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2627525D19D77AC300E9B95B /* typhoon.jpg */; };
 		2627526B19D77D5700E9B95B /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627526A19D77D5700E9B95B /* Jet.swift */; };
@@ -54,7 +53,6 @@
 		2627525319D77A5D00E9B95B /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
 		2627525819D77AC300E9B95B /* f16alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f16alpha.jpg; sourceTree = "<group>"; };
 		2627525919D77AC300E9B95B /* f15alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f15alpha.jpg; sourceTree = "<group>"; };
-		2627525A19D77AC300E9B95B /* raptor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raptor.jpg; sourceTree = "<group>"; };
 		2627525C19D77AC300E9B95B /* f18alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f18alpha.jpg; sourceTree = "<group>"; };
 		2627525D19D77AC300E9B95B /* typhoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = typhoon.jpg; sourceTree = "<group>"; };
 		2627526A19D77D5700E9B95B /* Jet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				267AE55A19F7C4700009D077 /* chinook.jpg */,
 				2627525819D77AC300E9B95B /* f16alpha.jpg */,
 				2627525919D77AC300E9B95B /* f15alpha.jpg */,
-				2627525A19D77AC300E9B95B /* raptor.jpg */,
 				2627525C19D77AC300E9B95B /* f18alpha.jpg */,
 				2627525D19D77AC300E9B95B /* typhoon.jpg */,
 				2627525319D77A5D00E9B95B /* sky.jpg */,
@@ -259,7 +256,6 @@
 				2627526219D77AC300E9B95B /* f16alpha.jpg in Resources */,
 				269D596C19FA2F8400ED972E /* hydra.jpg in Resources */,
 				2627526719D77AC300E9B95B /* typhoon.jpg in Resources */,
-				2627526419D77AC300E9B95B /* raptor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

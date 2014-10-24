@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Jets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="JetsAndChoppers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -66,20 +66,6 @@
                                     <rect key="frame" x="103" y="247" width="177" height="21"/>
                                 </variation>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajg-lr-eYP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="H5H-08-waF"/>
-                                    <barButtonItem title="Next" id="JQC-mW-XWL">
-                                        <connections>
-                                            <action selector="nextBarButtonPressed:" destination="vXZ-lx-hvc" id="49g-bm-ur0"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                </variation>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REm-cc-Amh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -118,6 +104,20 @@
                                     <rect key="frame" x="40" y="361" width="240" height="145"/>
                                 </variation>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajg-lr-eYP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="H5H-08-waF"/>
+                                    <barButtonItem title="Next" id="JQC-mW-XWL">
+                                        <connections>
+                                            <action selector="nextBarButtonPressed:" destination="vXZ-lx-hvc" id="49g-bm-ur0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                </variation>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -128,11 +128,11 @@
                                 <exclude reference="dwR-Eu-DzX"/>
                                 <exclude reference="efZ-jo-bSk"/>
                                 <exclude reference="Q1t-cL-b61"/>
-                                <exclude reference="ajg-lr-eYP"/>
                                 <exclude reference="REm-cc-Amh"/>
                                 <exclude reference="BM0-bk-eLx"/>
                                 <exclude reference="vzk-6g-5vn"/>
                                 <exclude reference="RxA-yq-efE"/>
+                                <exclude reference="ajg-lr-eYP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -143,11 +143,11 @@
                                 <include reference="dwR-Eu-DzX"/>
                                 <include reference="efZ-jo-bSk"/>
                                 <include reference="Q1t-cL-b61"/>
-                                <include reference="ajg-lr-eYP"/>
                                 <include reference="REm-cc-Amh"/>
                                 <include reference="BM0-bk-eLx"/>
                                 <include reference="vzk-6g-5vn"/>
                                 <include reference="RxA-yq-efE"/>
+                                <include reference="ajg-lr-eYP"/>
                             </mask>
                         </variation>
                     </view>

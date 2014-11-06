@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         firstJet.type = "Fighter / Attack"
         firstJet.image = UIImage(named: "f18alpha.jpg")
         
-//      self.jetsArray.append(firstJet)
+        // self.jetsArray.append(firstJet)
         
         var secondJet = JetStruct()
         secondJet.name = "F16"
@@ -55,13 +55,6 @@ class ViewController: UIViewController {
         forthJet.age = 1994
         forthJet.type = "Multirole Fighter"
         forthJet.image = UIImage(named: "typhoon.jpg")
-        
-        // need this in viewDidLoad so the image appears before the next bar button is pushed
-        self.nameLabel.text = firstJet.name
-        self.ageLabel.text = "\(firstJet.age)"
-        self.typeLabel.text = firstJet.type
-        self.aircraftImage.image = firstJet.image
-        self.randomFactLabel.text = firstJet.randomFact()
         
         self.jetsArray += [firstJet, secondJet, thirdJet, forthJet] // appending multiple objects to Array
         
@@ -113,6 +106,13 @@ class ViewController: UIViewController {
         
         self.chopperSubWeaponsArray += [firstChopperWeapon, secondChopperWeapon]
         
+        // need this in viewDidLoad so the image appears before the next bar button is pushed
+        self.nameLabel.text = firstJet.name
+        self.ageLabel.text = "\(firstJet.age)"
+        self.typeLabel.text = firstJet.type
+        self.aircraftImage.image = firstJet.image
+        self.randomFactLabel.text = firstJet.randomFact()
+
         self.currentIndex = 0
     }
 
@@ -124,27 +124,28 @@ class ViewController: UIViewController {
     @IBAction func nextBarButtonPressed(sender: UIBarButtonItem) {
         
         self.updateAircraftFunction()
-        self.updateUIView()
+        self.updateUIViewFunction()
         
         }
     
     // HELPER FUNCTIONS
     
     func updateAircraftFunction () {
+        
         switch currentAircraft {
         case ("alphaString", _):
-            let randomIndex = Int(arc4random_uniform(UInt32(self.choppersArray.count)))
+            let randomIndex = Int(arc4random_uniform(UInt32(self.choppersArray.count))) // 4 Choppers in Array
             self.currentAircraft = ("betaString", randomIndex)
         case ("betaString", _):
-            let randomIndex = Int(arc4random_uniform(UInt32(self.chopperSubWeaponsArray.count)))
-            self.currentAircraft = ("charlieString", randomIndex)
+            let randomIndex = Int(arc4random_uniform(UInt32(self.chopperSubWeaponsArray.count))) // 2 Weapons
+            self.currentAircraft = ("deltaString", randomIndex)
         default:
-            let randomIndex = Int(arc4random_uniform(UInt32(self.jetsArray.count)))
+            let randomIndex = Int(arc4random_uniform(UInt32(self.jetsArray.count))) // 4 Jets
             self.currentAircraft = ("alphaString", randomIndex)
         }
     }
 
-    func updateUIView () {
+    func updateUIViewFunction () {
         
         UIView.transitionWithView(self.view, duration: 0.2, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {
             
@@ -164,7 +165,7 @@ class ViewController: UIViewController {
                 self.aircraftImage.image = chopperConstant.image
                 self.randomFactLabel.text = chopperConstant.randomFact()
             }
-            else if self.currentAircraft.aircraftType == "charlieString" {
+            else if self.currentAircraft.aircraftType == "deltaString" {
                 let chopperSubWeaponsConstant = self.chopperSubWeaponsArray[self.currentAircraft.index]
                 self.nameLabel.text = chopperSubWeaponsConstant.name
                 self.ageLabel.text = "\(chopperSubWeaponsConstant.age)"

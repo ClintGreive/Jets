@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class ChopperClass {
+    
     var age = 0
     var name = ""
     var type = ""

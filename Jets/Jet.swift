@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 struct JetStruct {
+    
     var name = ""
     var age = 0
     var type = ""
@@ -32,7 +33,6 @@ struct JetStruct {
         else {
             facts = "Chuck Yeager, the first man to fly faster than the speed of sound, revived his feat on October 14 2012 in an F-15 Eagle, to celebrate the 65th anniversary of breaking the sound barrier. He was 89 years old."
         }
-        
         return facts
     }
 }

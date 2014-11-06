@@ -16,20 +16,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var randomFactLabel: UILabel!
     
-    var jetsArray:[Jet] = [] // array to hold Jet Struct instances
-    var choppersArray:[Chopper] = [] // array to hold Chopper Class instances
+    // arrays to hold Struct and Class instances
+    var jetsArray:[JetStruct] = []
+    var choppersArray:[ChopperClass] = []
     var chopperSubWeaponsArray:[ChopperSubWeapons] = []
     
     var currentIndex = 0
     
-    // tuple: adding string and integer
-    var currentAircraft = (aircraftType: "Jet", index: 0)
+    // TUPLE: adding string and integer
+    var currentAircraft = (aircraftType: "alphaString", index: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var firstJet = Jet()
+        var firstJet = JetStruct()
         firstJet.name = "FA 18"
         firstJet.age = 1995
         firstJet.type = "Fighter / Attack"
@@ -37,21 +38,19 @@ class ViewController: UIViewController {
         
 //      self.jetsArray.append(firstJet)
         
-//      println("This Jet is named \(firstJet.name) and it is \(firstJet.age) year of age, being a \(firstJet.type). \(firstJet.image)")
-        
-        var secondJet = Jet()
+        var secondJet = JetStruct()
         secondJet.name = "F16"
         secondJet.age = 1976
         secondJet.type = "Multirole Fighter"
         secondJet.image = UIImage(named: "f16alpha.jpg")
         
-        var thirdJet = Jet()
+        var thirdJet = JetStruct()
         thirdJet.name = "F15 Desert Eagle"
         thirdJet.age = 1972
         thirdJet.type = "Tactical Fighter"
         thirdJet.image = UIImage(named: "f15alpha.jpg")
         
-        var forthJet = Jet()
+        var forthJet = JetStruct()
         forthJet.name = "Typhoon"
         forthJet.age = 1994
         forthJet.type = "Multirole Fighter"
@@ -67,28 +66,28 @@ class ViewController: UIViewController {
         self.jetsArray += [firstJet, secondJet, thirdJet, forthJet] // appending multiple objects to Array
         
         // instantiate the Chopper instance
-        var firstChopper = Chopper()
+        var firstChopper = ChopperClass()
         firstChopper.name = "AH-64A Apache"
         firstChopper.age = 1986
         firstChopper.type = "Attack"
         firstChopper.image = UIImage(named: "apache.jpg")
         firstChopper.isAttackChopper = true
         
-        var secondChopper = Chopper()
+        var secondChopper = ChopperClass()
         secondChopper.name = "UH-60 Blackhawk"
         secondChopper.age = 1979
         secondChopper.type = "Tactical Transport"
         secondChopper.image = UIImage(named: "blackhawk.jpg")
         secondChopper.isAttackChopper = true
         
-        var thirdChopper = Chopper()
+        var thirdChopper = ChopperClass()
         thirdChopper.name = "UH-1 Huey"
         thirdChopper.age = 1956
         thirdChopper.type = "General Utility"
         thirdChopper.image = UIImage(named: "huey.jpg")
         thirdChopper.isAttackChopper = false
         
-        var forthChopper = Chopper()
+        var forthChopper = ChopperClass()
         forthChopper.name = "CH-47 Chinook"
         forthChopper.age = 1962
         forthChopper.type = "Troop Transport"
@@ -133,15 +132,15 @@ class ViewController: UIViewController {
     
     func updateAircraftFunction () {
         switch currentAircraft {
-        case ("Jet", _):
+        case ("alphaString", _):
             let randomIndex = Int(arc4random_uniform(UInt32(self.choppersArray.count)))
-            self.currentAircraft = ("Chopper", randomIndex)
-        case ("Chopper", _):
+            self.currentAircraft = ("betaString", randomIndex)
+        case ("betaString", _):
             let randomIndex = Int(arc4random_uniform(UInt32(self.chopperSubWeaponsArray.count)))
-            self.currentAircraft = ("ChopperSubWeapons", randomIndex)
+            self.currentAircraft = ("charlieString", randomIndex)
         default:
             let randomIndex = Int(arc4random_uniform(UInt32(self.jetsArray.count)))
-            self.currentAircraft = ("Jet", randomIndex)
+            self.currentAircraft = ("alphaString", randomIndex)
         }
     }
 
@@ -149,7 +148,7 @@ class ViewController: UIViewController {
         
         UIView.transitionWithView(self.view, duration: 0.2, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {
             
-            if self.currentAircraft.aircraftType == "Jet" {
+            if self.currentAircraft.aircraftType == "alphaString" {
                 let jetConstant = self.jetsArray[self.currentAircraft.index]
                 self.nameLabel.text = jetConstant.name
                 self.ageLabel.text = "\(jetConstant.age)"
@@ -157,7 +156,7 @@ class ViewController: UIViewController {
                 self.aircraftImage.image = jetConstant.image
                 self.randomFactLabel.text = jetConstant.randomFact()
             }
-            else if self.currentAircraft.aircraftType == "Chopper" {
+            else if self.currentAircraft.aircraftType == "betaString" {
                 let chopperConstant = self.choppersArray[self.currentAircraft.index]
                 self.nameLabel.text = chopperConstant.name
                 self.ageLabel.text = "\(chopperConstant.age)"
@@ -165,7 +164,7 @@ class ViewController: UIViewController {
                 self.aircraftImage.image = chopperConstant.image
                 self.randomFactLabel.text = chopperConstant.randomFact()
             }
-            else if self.currentAircraft.aircraftType == "ChopperSubWeapons" {
+            else if self.currentAircraft.aircraftType == "charlieString" {
                 let chopperSubWeaponsConstant = self.chopperSubWeaponsArray[self.currentAircraft.index]
                 self.nameLabel.text = chopperSubWeaponsConstant.name
                 self.ageLabel.text = "\(chopperSubWeaponsConstant.age)"

@@ -8,13 +8,13 @@
 
 import Foundation
 
-class ChopperSubWeapons: Chopper {
+class ChopperSubWeapons: ChopperClass {
     
     override func randomFact() -> String {
         
         var randomFactString:String
         
-        if isAttackChopper {
+        if isAttackChopper { // inherited property from ChopperClass
             randomFactString = "Apaches usually fly with two Hydra rocket launchers in place of two of the Hellfire missile sets. Each rocket launcher carries 19 folding-fin 2.75-inch aerial rockets, secured in launching tubes."
         }
         else {

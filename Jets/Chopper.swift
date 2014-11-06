@@ -9,17 +9,18 @@
 import Foundation
 import UIKit
 
-class Chopper {
+class ChopperClass {
     var age = 0
     var name = ""
+    var type = ""
     var image = UIImage(named: "")
     var isAttackChopper = false
-    var type = ""
     
     func randomFact() -> String {
+        
         var randomFact:String
         
-        if self.isAttackChopper {
+        if self.isAttackChopper { // can use self. notation on property due to being a class
             randomFact = "The fastest speed recorded by a helicopter is around 400 kph (248 mph)."
         }
         else {

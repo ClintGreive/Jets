@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Jet {
+struct JetStruct {
     var name = ""
     var age = 0
     var type = ""
